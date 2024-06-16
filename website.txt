@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tami Choate - Thrifty Mom Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f3;
+            color: #333;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #388e3c;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #45a049;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .blog {
+            margin-bottom: 20px;
+        }
+        .about h2, .blog h2 {
+            border-bottom: 2px solid #4caf50;
+            padding-bottom: 5px;
+        }
+        footer {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tami Choate - Thrifty Mom Blog</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Tami Choate. I am a thrifty mom who loves to save money while still doing the things I love. Whether it's finding great deals, DIY projects, or budget-friendly recipes, I enjoy sharing my tips and tricks for living well without breaking the bank.</p>
+        </section>
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <p>Welcome to my blog! Here you'll find posts on various topics including saving money, DIY projects, and much more. Stay tuned for my latest tips and updates.</p>
+            <!-- Example of a blog post -->
+            <article>
+                <h3>5 Tips for Saving Money on Groceries</h3>
+                <p>Published on June 16, 2024</p>
+                <p>Grocery shopping can be one of the biggest expenses for a family. Here are five tips to help you save money without sacrificing quality...</p>
+                <a href="#">Read more</a>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tami Choate. All rights reserved.</p>
+    </footer>
+</body>
+</html>
